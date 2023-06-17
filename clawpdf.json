@@ -6,4 +6,12 @@
   "autoupdate": {
     "url": "https://github.com/clawsoftware/clawPDF/releases/download/$version/clawPDF_$version_setup.msi"
   }
+  "shortcuts": [
+    [
+      "clawPDF.exe",
+      "clawPDF",
+      "",
+      "clawPDF.ico"
+    ]
+  ]
 }
