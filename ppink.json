@@ -3,7 +3,12 @@
     "version": "1.8.3",
     "extract_dir": "ppinkS",
     "url": "https://github.com/pubpub-zz/ppInk/releases/download/v1.8.3/ppinkS.zip",
-    "bin": "ppInk.exe",
+    "shortcuts": [
+        [
+            "ppInk.exe",
+            "ppInk"
+        ]
+    ],
     "persist": [
       "pens.ini",
       "config.ini",
