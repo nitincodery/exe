@@ -1,0 +1,29 @@
+{
+    "homepage": "https://github.com/pubpub-zz/ppInk",
+    "version": "1.8.3",
+    "extract_dir": "ppink",
+    "url": "https://github.com/pubpub-zz/ppInk/releases/download/v1.8.3/ppinkS.zip",
+    "bin": [
+        [
+            "ppInk.exe",
+            "ppink"
+        ]
+    ],
+    "pre_install": [
+        "if (-not (Test-Path \"$persist_dir\\config.ini\")) {",
+        "    $cur = \"$persist_dir\\Snapshots\\\" -replace '\\\\', '/'",
+        "    $c = (Get-Content \"$dir\\config_defaut.ini\") -replace '^(Snapshot_Path =).*$', \"`$1 $cur\"",
+        "    Set-Content  \"$dir\\config.ini\" $c -Encoding Ascii -Force",
+        "}"
+    ],
+    "persist": [
+	"Snapshots"
+        "pens.ini",
+        "config.ini",
+        "hotkeys.ini"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/pubpub-zz/ppInk/releases/download/v$version/ppinkS.zip"
+    }
+}
