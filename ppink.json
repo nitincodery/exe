@@ -9,15 +9,7 @@
             "ppink"
         ]
     ],
-    "pre_install": [
-        "if (-not (Test-Path \"$persist_dir\\config.ini\")) {",
-        "    $cur = \"$persist_dir\\Snapshots\\\" -replace '\\\\', '/'",
-        "    $c = (Get-Content \"$dir\\config_defaut.ini\") -replace '^(Snapshot_Path =).*$', \"`$1 $cur\"",
-        "    Set-Content  \"$dir\\config.ini\" $c -Encoding Ascii -Force",
-        "}"
-    ],
     "persist": [
-      "Snapshots",
       "pens.ini",
       "config.ini",
       "hotkeys.ini"
