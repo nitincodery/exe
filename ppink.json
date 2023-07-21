@@ -17,7 +17,7 @@
         "}"
     ],
     "persist": [
-	"Snapshots"
+	"Snapshots",
         "pens.ini",
         "config.ini",
         "hotkeys.ini"
