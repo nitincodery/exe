@@ -1,8 +1,9 @@
 {
     "homepage": "https://github.com/pubpub-zz/ppInk",
     "version": "1.8.3",
-    "extract_dir": "ppink",
+    "extract_dir": "ppinkS",
     "url": "https://github.com/pubpub-zz/ppInk/releases/download/v1.8.3/ppinkS.zip",
+    "hash": "f813393e027b0ea83c5d2a1091b55bbeda6b89ed",
     "bin": [
         [
             "ppInk.exe",
@@ -17,10 +18,10 @@
         "}"
     ],
     "persist": [
-	"Snapshots",
-        "pens.ini",
-        "config.ini",
-        "hotkeys.ini"
+      "Snapshots",
+      "pens.ini",
+      "config.ini",
+      "hotkeys.ini"
     ],
     "checkver": "github",
     "autoupdate": {
