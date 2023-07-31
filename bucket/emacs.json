@@ -15,7 +15,7 @@
         "bin\\emacsclientw.exe",
         "bin\\etags.exe",
         "bin\\ctags.exe",
-        "libexec\\emacs\\$version\\x86_64-w64-mingw32\\cmdproxy.exe"
+        "libexec\\emacs\\29.1\\x86_64-w64-mingw32\\cmdproxy.exe"
     ],
     "shortcuts": [
         [
