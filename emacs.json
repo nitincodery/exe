@@ -2,7 +2,7 @@
     "version": "29.1",
     "description": "An extensible, customizable, free/libre text editor.",
     "homepage": "https://www.gnu.org/software/emacs/",
-    "notes": "Use Official bucket Extras [extras/emacs]"
+    "notes": "Use official bucket Extras [extras/emacs]"
     "architecture": {
         "64bit": {
             "url": "https://ftpmirror.gnu.org/gnu/emacs/windows/emacs-29/emacs-29.1.zip",
