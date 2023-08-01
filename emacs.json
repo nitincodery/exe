@@ -1,0 +1,37 @@
+{
+    "version": "29.1",
+    "description": "An extensible, customizable, free/libre text editor.",
+    "homepage": "https://www.gnu.org/software/emacs/",
+    "architecture": {
+        "64bit": {
+            "url": "https://ftpmirror.gnu.org/gnu/emacs/windows/emacs-29/emacs-29.1.zip",
+            "hash": "8bf7f8921089a53f1c5686698f8155131e6b70790735c1663a7cdd1e172f72ea"
+        }
+    },
+    "bin": [
+        "bin\\runemacs.exe",
+        "bin\\emacs.exe",
+        "bin\\emacsclientw.exe",
+        "bin\\etags.exe",
+        "bin\\ctags.exe"
+    ],
+    "shortcuts": [
+        [
+            "bin\\runemacs.exe",
+            "Emacs"
+        ],
+        [
+            "bin\\emacsclientw.exe",
+            "Emacs Client",
+            "-c -n -a \"\""
+        ]
+    ],
+    "checkver": "Emacs ([\\d.]+)",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://ftpmirror.gnu.org/gnu/emacs/windows/emacs-$majorVersion/emacs-$version.zip"
+            }
+        }
+    }
+}
