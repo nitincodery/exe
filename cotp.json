@@ -6,6 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/replydev/cotp/releases/download/v1.4.5/cotp-1.4.5-x86_64-win-msvc.zip",
+      "hash": "734f8e110fb65696b6d5fa4ebe12cd7849115a6e0fbe0db324379333e29bd918",
       "extract_dir": "cotp-1.4.5-x86_64-win-msvc"
     }
   },
