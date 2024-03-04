@@ -1,5 +1,4 @@
 {
-  "version": "cc58617ff5cd97c4d11fedff2a3b4beccc3a01da",
   "depends": "stack",
   "homepage": "https://github.com/kmonad/kmonad",
   "license": "MIT",
