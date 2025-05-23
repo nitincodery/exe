@@ -24,14 +24,14 @@
         [
             "brave.exe",
             "brave",
-            "--user-data-dir=\"${env:SCOOP}\\persist\\brave\\User Data\""
+            "--user-data-dir=\"$persist_dir\\brave\\User Data\""
         ] 
     ],
     "shortcuts": [
         [
             "brave.exe",
             "Brave",
-            "--user-data-dir=\"${env:SCOOP}\\persist\\brave\\User Data\""
+            "--user-data-dir=\"$persist_dir\\brave\\User Data\""
         ]
     ],
     "persist": "User Data",
