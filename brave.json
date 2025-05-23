@@ -24,20 +24,14 @@
         [
             "brave.exe",
             "brave",
-            "--user-data-dir=\"$dir\\User Data\""
-        ]
-    ],
-    "post_install": [
-        "if (!(Test-Path \"$dir\\User Data\\*\") -and (Test-Path \"$persist_dir\\data\")) {",
-        "    info '[Portable Mode]: Copying user data from portapps data directory . . .'",
-        "    Copy-Item \"$persist_dir\\data\\*\" \"$dir\\User Data\" -Recurse",
-        "}"
+            "--user-data-dir=\"${env:SCOOP}\\persist\\brave\\User Data\""
+        ] 
     ],
     "shortcuts": [
         [
             "brave.exe",
             "Brave",
-            "--user-data-dir=\"$dir\\User Data\""
+            "--user-data-dir=\"${env:SCOOP}\\persist\\brave\\User Data\""
         ]
     ],
     "persist": "User Data",
