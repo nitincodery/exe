@@ -2,15 +2,15 @@
     "homepage": "http://softwareok.com/?seite=Microsoft/DesktopOK",
     "description": "DesktopOK - Save and restore the positions of the Windows 11, 10, ... Desktop Icons!",
     "license": "freeware",
-    "version": "11.16",
+    "version": "11.81",
     "architecture": {
         "64bit": {
             "url": "http://softwareok.com/Download/DesktopOK_x64.zip",
-            "hash": "209c7eff5b481bf0170aaf9259f05fee36efcd6906bc5c8a5ef656b262323a82"
+            "hash": "fce8b03925579ad9e4b14322cff75f10a5e43ddb857ec51e5c7f76d7df1db094"
         },
         "32bit": {
             "url": "http://softwareok.com/Download/DesktopOK_Unicode.zip",
-            "hash": "116cde9d7862956e748524f382013e77422185b6f02128f6a0fa85eed3aa2509"
+            "hash": "9feba1eb868a7fd351dfbbf1772c99afbd8e00e3f16e5da9823f08f881bd0abc"
         }
     },
     "pre_install": [
